@@ -1,0 +1,22 @@
+{
+    "version": "0.0.8",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dl-alexandre/Local-UniFi-CLI/releases/download/v0.0.8/unifi-windows-amd64.tar.gz",
+            "bin": [
+                "unifi.exe"
+            ],
+            "hash": "a7eee02d7f20d46d4d42fb2b0153491d0613b84095c82378abf74102ab13ab96"
+        },
+        "arm64": {
+            "url": "https://github.com/dl-alexandre/Local-UniFi-CLI/releases/download/v0.0.8/unifi-windows-arm64.tar.gz",
+            "bin": [
+                "unifi.exe"
+            ],
+            "hash": "8004b4d34405758a2cdc48363febe9197e827e3358ac617ad41f6e01b3102ce6"
+        }
+    },
+    "homepage": "https://github.com/dl-alexandre/Local-UniFi-CLI",
+    "license": "MIT",
+    "description": "CLI for local UniFi controller management"
+}
