@@ -1,0 +1,25 @@
+{
+    "version": "1.1.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI/releases/download/v1.1.2/usm-windows-amd64.zip",
+            "bin": [
+                "usm.exe"
+            ],
+            "hash": "fbd4f7d2ffc44b8c17e47296dabf9937ef6e973c3ecb39f6b933b364f0f2a199"
+        },
+        "arm64": {
+            "url": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI/releases/download/v1.1.2/usm-windows-arm64.zip",
+            "bin": [
+                "usm.exe"
+            ],
+            "hash": "dc686ab1ed91af778684ab07ed2350e8a13027e70e62bdaae13e6ca822f56ea8"
+        }
+    },
+    "homepage": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI",
+    "license": "MIT",
+    "description": "Full-featured CLI for managing UniFi networks via Site Manager API",
+    "persist": [
+        "config.yaml"
+    ]
+}
