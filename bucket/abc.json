@@ -1,0 +1,22 @@
+{
+    "version": "0.0.14",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI/releases/download/v0.0.14/abc-windows-amd64.zip",
+            "bin": [
+                "abc.exe"
+            ],
+            "hash": "794f4cf801dc155d4268416f2cc45c3ffb7342c2dcf8a24f56da76b93077d46a"
+        },
+        "arm64": {
+            "url": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI/releases/download/v0.0.14/abc-windows-arm64.zip",
+            "bin": [
+                "abc.exe"
+            ],
+            "hash": "6b83f308ce59434e4ab287a6e20ce08eca66fdc5a62e11d96d077ca83c882dfe"
+        }
+    },
+    "homepage": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI",
+    "license": "MIT",
+    "description": "CLI for Apple Business Connect API"
+}
