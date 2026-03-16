@@ -1,0 +1,22 @@
+{
+    "version": "0.0.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dl-alexandre/Grokipedia-CLI/releases/download/v0.0.4/grokipedia_0.0.4_windows_x86_64.zip",
+            "bin": [
+                "grokipedia.exe"
+            ],
+            "hash": "f119632cc8a6b6719b08486b363374444330f1dda84981492dd12edee64d0668"
+        },
+        "arm64": {
+            "url": "https://github.com/dl-alexandre/Grokipedia-CLI/releases/download/v0.0.4/grokipedia_0.0.4_windows_arm64.zip",
+            "bin": [
+                "grokipedia.exe"
+            ],
+            "hash": "bd87385437f78346e65b588177fd285f8028b85246860b6f97e1ecc007ff1a2b"
+        }
+    },
+    "homepage": "https://github.com/dl-alexandre/Grokipedia-CLI",
+    "license": "MIT",
+    "description": "CLI for Wikipedia/Grok integration"
+}
