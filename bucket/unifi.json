@@ -1,19 +1,19 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Local-UniFi-CLI/releases/download/v0.1.1/unifi-windows-amd64.tar.gz",
+            "url": "https://github.com/dl-alexandre/Local-UniFi-CLI/releases/download/v0.1.2/unifi-windows-amd64.tar.gz",
             "bin": [
                 "unifi.exe"
             ],
-            "hash": "e94e54f8887376f093e2d80308276e53f672e7ca9c2a1b2271517d9815ff71e1"
+            "hash": "b405ebf76ffb743728dd6ac38d3b1e2094fa49f5494f5c93f0071725c362917c"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/Local-UniFi-CLI/releases/download/v0.1.1/unifi-windows-arm64.tar.gz",
+            "url": "https://github.com/dl-alexandre/Local-UniFi-CLI/releases/download/v0.1.2/unifi-windows-arm64.tar.gz",
             "bin": [
                 "unifi.exe"
             ],
-            "hash": "d5115a1df17933fff02ba4910fafcc9ee71a2294940f6a86fedc880ac0b78c70"
+            "hash": "ede7eb3243aacb31ece9bc289f02b2a657f22a6eae21bf0e33e969e5147462ab"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Local-UniFi-CLI",
