@@ -1,19 +1,21 @@
 {
-    "version": "0.6.3",
+    "version": "0.6.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Google-Drive-CLI/releases/download/v0.6.3/gdrv-windows-amd64.zip",
+            "url": "https://github.com/dl-alexandre/Google-Drive-CLI/releases/download/v0.6.4/gdrv-windows-amd64.zip",
             "bin": [
+                "discovery-checker.exe",
                 "gdrv.exe"
             ],
-            "hash": "6b4f03c79c969d45016a97cdebe3b751bdbc9ba9fdd45c552b198c4cf54296ec"
+            "hash": "8ec35e904c78a2e6e3ed53c46dcf31ae617202122e30cd3b68637064a7ae7d39"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/Google-Drive-CLI/releases/download/v0.6.3/gdrv-windows-arm64.zip",
+            "url": "https://github.com/dl-alexandre/Google-Drive-CLI/releases/download/v0.6.4/gdrv-windows-arm64.zip",
             "bin": [
+                "discovery-checker.exe",
                 "gdrv.exe"
             ],
-            "hash": "870f4e36c45dde7de8d6b926910b83f92674c5042acc1254c83ce6133680c133"
+            "hash": "8ce98d2b633674ea3f044ad57c9bad45b76fe00ba50751bb998419ffb6174194"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Google-Drive-CLI",
