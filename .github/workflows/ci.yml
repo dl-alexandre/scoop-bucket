@@ -1,0 +1,111 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install Scoop
+      uses: ScoopInstaller/Scoop-GithubActions@main
+      with:
+        scoopbucket: bucket
+        scoopcheckimmediatly: false
+
+    - name: Validate manifests
+      shell: pwsh
+      run: |
+        $ErrorActionPreference = 'Stop'
+        
+        # Get all JSON manifests
+        $manifests = Get-ChildItem -Path "bucket" -Filter "*.json" -File
+        
+        $failed = @()
+        
+        foreach ($manifest in $manifests) {
+          Write-Host "Validating $($manifest.Name)..."
+          
+          try {
+            # Validate JSON syntax
+            $content = Get-Content $manifest.FullName -Raw
+            $json = $content | ConvertFrom-Json
+            
+            # Check required fields
+            $requiredFields = @('version', 'description', 'homepage', 'license', 'architecture')
+            foreach ($field in $requiredFields) {
+              if (-not $json.$field) {
+                throw "Missing required field: $field"
+              }
+            }
+            
+            # Check architecture has at least one platform
+            $arch = $json.architecture
+            if (-not ($arch.'64bit' -or $arch.'32bit' -or $arch.'arm64')) {
+              throw "Architecture must have at least one platform defined"
+            }
+            
+            Write-Host "  ✓ $($manifest.Name) is valid"
+          }
+          catch {
+            Write-Host "  ✗ $($manifest.Name) is invalid: $_"
+            $failed += $manifest.Name
+          }
+        }
+        
+        if ($failed.Count -gt 0) {
+          Write-Error "Validation failed for: $($failed -join ', ')"
+          exit 1
+        }
+        
+        Write-Host "All manifests validated successfully!"
+
+  test-install:
+    needs: validate
+    runs-on: windows-latest
+    if: github.event_name == 'pull_request'
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.ref || github.ref }}
+
+    - name: Install Scoop
+      uses: ScoopInstaller/Scoop-GithubActions@main
+      with:
+        scoopbucket: bucket
+        scoopcheckimmediatly: false
+
+    - name: Test install changed manifests
+      shell: pwsh
+      run: |
+        $ErrorActionPreference = 'Stop'
+        
+        # Get changed manifests
+        $changed = git diff --name-only HEAD~1 | Where-Object { $_ -like "bucket/*.json" }
+        
+        if (-not $changed) {
+          Write-Host "No manifest changes to test"
+          exit 0
+        }
+        
+        foreach ($file in $changed) {
+          $manifest = [System.IO.Path]::GetFileNameWithoutExtension($file)
+          Write-Host "Testing $manifest..."
+          
+          # Install from local bucket
+          scoop install $manifest
+          
+          # Test version command
+          & $manifest --version
+          
+          # Uninstall
+          scoop uninstall $manifest
+        }
