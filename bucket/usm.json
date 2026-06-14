@@ -1,19 +1,19 @@
 {
-    "version": "1.1.2",
+    "version": "1.1.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI/releases/download/v1.1.2/usm-windows-amd64.zip",
+            "url": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI/releases/download/v1.1.6/usm-windows-amd64.zip",
             "bin": [
                 "usm.exe"
             ],
-            "hash": "fbd4f7d2ffc44b8c17e47296dabf9937ef6e973c3ecb39f6b933b364f0f2a199"
+            "hash": "b2ccb12dfac7bd9dc0ed8e384057d64321cbeb28c60eac0d214c2a10981e52a7"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI/releases/download/v1.1.2/usm-windows-arm64.zip",
+            "url": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI/releases/download/v1.1.6/usm-windows-arm64.zip",
             "bin": [
                 "usm.exe"
             ],
-            "hash": "dc686ab1ed91af778684ab07ed2350e8a13027e70e62bdaae13e6ca822f56ea8"
+            "hash": "ae16e80c303071b281975b7a992ecf9b8692169ffd3f36e512f5923a2ff09cc4"
         }
     },
     "homepage": "https://github.com/dl-alexandre/UniFi-Site-Manager-CLI",
