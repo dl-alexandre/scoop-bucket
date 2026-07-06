@@ -1,19 +1,19 @@
 {
-    "version": "0.0.14",
+    "version": "0.0.15",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI/releases/download/v0.0.14/abc-windows-amd64.zip",
+            "url": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI/releases/download/v0.0.15/abc-windows-amd64.zip",
             "bin": [
                 "abc.exe"
             ],
-            "hash": "794f4cf801dc155d4268416f2cc45c3ffb7342c2dcf8a24f56da76b93077d46a"
+            "hash": "d31aad4735085ef2fa6448a2ae560e2645c4d983c944fa36aa6f3ff43de701ac"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI/releases/download/v0.0.14/abc-windows-arm64.zip",
+            "url": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI/releases/download/v0.0.15/abc-windows-arm64.zip",
             "bin": [
                 "abc.exe"
             ],
-            "hash": "6b83f308ce59434e4ab287a6e20ce08eca66fdc5a62e11d96d077ca83c882dfe"
+            "hash": "200dd18e1722d9e922728f2fc383034e23893bca95077f7b1abbaca3fd23b202"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Apple-Business-Connect-CLI",
