@@ -1,19 +1,19 @@
 {
-    "version": "0.0.10",
+    "version": "0.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/cimis-cli/releases/download/v0.0.10/cimis-windows-amd64.zip",
+            "url": "https://github.com/dl-alexandre/cimis-cli/releases/download/v0.1.0/cimis-windows-amd64.zip",
             "bin": [
                 "cimis.exe"
             ],
-            "hash": "a99b21480c2a637665b118ca8609e6814eafad226f271282e545900493870576"
+            "hash": "61f0be5d3e2332923306e464704cb29964ec9547ec693aed5a8467a0ecdbe8d8"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/cimis-cli/releases/download/v0.0.10/cimis-windows-arm64.zip",
+            "url": "https://github.com/dl-alexandre/cimis-cli/releases/download/v0.1.0/cimis-windows-arm64.zip",
             "bin": [
                 "cimis.exe"
             ],
-            "hash": "c467704494caea31a701c1214568688ce55c7a43ead7e619dd47351a34c8ef65"
+            "hash": "0e6da774f19be922ae5de3af098056abd2babe496147239ed9f19ece9d72c4f9"
         }
     },
     "homepage": "https://github.com/dl-alexandre/cimis-cli",
