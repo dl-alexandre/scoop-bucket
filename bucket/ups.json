@@ -1,19 +1,19 @@
 {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/UPS-CLI/releases/download/v0.0.6/ups_Windows_x86_64.zip",
+            "url": "https://github.com/dl-alexandre/UPS-CLI/releases/download/v0.0.7/ups_Windows_x86_64.zip",
             "bin": [
                 "ups_Windows_x86_64/ups.exe"
             ],
-            "hash": "52a438343137f2a6f3704c651eb416c51d8aab240be2414a83fae57f5be69683"
+            "hash": "0dca454e97a5e8410791f079b31bb0d7b02c8982671250ec9c938c77082537a0"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/UPS-CLI/releases/download/v0.0.6/ups_Windows_arm64.zip",
+            "url": "https://github.com/dl-alexandre/UPS-CLI/releases/download/v0.0.7/ups_Windows_arm64.zip",
             "bin": [
                 "ups_Windows_arm64/ups.exe"
             ],
-            "hash": "ad615f503650a1c3c83ff2ff33e18116cb8804b1f85cc5bb282bacc2f8b58f01"
+            "hash": "73ad9c4969e55392c97bfbe29a9e57e7fc941fad0f895cf677043ad47261a3d6"
         }
     },
     "homepage": "https://github.com/dl-alexandre/UPS-CLI",
