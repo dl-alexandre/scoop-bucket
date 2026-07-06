@@ -1,19 +1,19 @@
 {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/X-CLI/releases/download/v0.0.3/x_Windows_x86_64.zip",
+            "url": "https://github.com/dl-alexandre/X-CLI/releases/download/v0.0.4/x_Windows_x86_64.zip",
             "bin": [
                 "x_Windows_x86_64/x.exe"
             ],
-            "hash": "fdef396ccd278a025ae720f6e545bfc3a8b5b3061603f665f7be94ea963c3cdc"
+            "hash": "d628af21d7effe647d09f158b39f5db9a98f74ba2346104ffb7d8879f42eaaf6"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/X-CLI/releases/download/v0.0.3/x_Windows_arm64.zip",
+            "url": "https://github.com/dl-alexandre/X-CLI/releases/download/v0.0.4/x_Windows_arm64.zip",
             "bin": [
                 "x_Windows_arm64/x.exe"
             ],
-            "hash": "dba393f1be7ceaa09e5af2d02aacb1d8e96ddfaf5cf03ad111e26adb0722db90"
+            "hash": "c442d6f0c89d454f43071f9feba0787762abd069cd4307c86c899d5cfbd04072"
         }
     },
     "homepage": "https://github.com/dl-alexandre/X-CLI",
