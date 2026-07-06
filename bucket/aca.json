@@ -1,19 +1,19 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Advance-Commerce-CLI/releases/download/v0.0.5/aca_0.0.5_windows_x86_64.tar.gz",
+            "url": "https://github.com/dl-alexandre/Advance-Commerce-CLI/releases/download/v0.0.6/aca_0.0.6_windows_x86_64.tar.gz",
             "bin": [
                 "aca.exe"
             ],
-            "hash": "409152ebfecd627b890aa5537b6e29cb33528274e3a66f5525b0711a72f25c91"
+            "hash": "dc9c1e9da32b8614a942b8452bf42282dd6171909ce62a1007aeca4e78851964"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/Advance-Commerce-CLI/releases/download/v0.0.5/aca_0.0.5_windows_arm64.tar.gz",
+            "url": "https://github.com/dl-alexandre/Advance-Commerce-CLI/releases/download/v0.0.6/aca_0.0.6_windows_arm64.tar.gz",
             "bin": [
                 "aca.exe"
             ],
-            "hash": "858a25695a2f0a2bdb2dd97d3c3f2505311e89de2d0ca5e35ed68523cb71d576"
+            "hash": "7fa5f83a0e6cfddce02c22abe183860b43de6ff04d7fa32726b552fbc41b6e70"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Advance-Commerce-CLI",
