@@ -1,19 +1,12 @@
 {
-    "version": "0.0.5",
+    "version": "0.1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Grokipedia-CLI/releases/download/v0.0.5/grokipedia_0.0.5_windows_x86_64.zip",
+            "url": "https://github.com/dl-alexandre/Grokipedia-CLI/releases/download/v0.1.1/grokipedia-windows-amd64.zip",
             "bin": [
                 "grokipedia.exe"
             ],
-            "hash": "fb398376bfa44a96a70100604fe2edfd52d2fd4fa0df5817eba581b3d40584f4"
-        },
-        "arm64": {
-            "url": "https://github.com/dl-alexandre/Grokipedia-CLI/releases/download/v0.0.5/grokipedia_0.0.5_windows_arm64.zip",
-            "bin": [
-                "grokipedia.exe"
-            ],
-            "hash": "e2b852fd8467c2444a42e456f3f23862d7548e3489a268d15f2dfb8a398b6659"
+            "hash": "7af00e8ce7d2254914fb493646a784c13a9741aff26044fbb774391c1c193ba6"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Grokipedia-CLI",
