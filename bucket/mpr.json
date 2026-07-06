@@ -1,19 +1,19 @@
 {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/MyMarketNews-CLI/releases/download/v0.0.7/mpr-windows-amd64.zip",
+            "url": "https://github.com/dl-alexandre/MyMarketNews-CLI/releases/download/v0.0.8/mpr-windows-amd64.zip",
             "bin": [
                 "mpr.exe"
             ],
-            "hash": "ba0a7376519f88acf918d5fb3cc282bfb26ea160920eba98bcd13f63fe588a6f"
+            "hash": "f3656c5eb0e7433a791b472b4832363ec58a93769ae4ccbdb34e9b8a671d692c"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/MyMarketNews-CLI/releases/download/v0.0.7/mpr-windows-arm64.zip",
+            "url": "https://github.com/dl-alexandre/MyMarketNews-CLI/releases/download/v0.0.8/mpr-windows-arm64.zip",
             "bin": [
                 "mpr.exe"
             ],
-            "hash": "82550e8ab1c0b068dea4dfbac404fa311ba23ad5eb652071bd37897ee0ac8c2a"
+            "hash": "6b30d1eae72437ca16205d6693ea87a6eb3ee05f58174c38c17bb7c2f5285272"
         }
     },
     "homepage": "https://github.com/dl-alexandre/MyMarketNews-CLI",
