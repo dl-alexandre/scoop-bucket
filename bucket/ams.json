@@ -1,19 +1,19 @@
 {
-    "version": "0.0.12",
+    "version": "0.0.13",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Apple-Map-Server-CLI/releases/download/v0.0.12/ams-windows-amd64.tar.gz",
+            "url": "https://github.com/dl-alexandre/Apple-Map-Server-CLI/releases/download/v0.0.13/ams-windows-amd64.tar.gz",
             "bin": [
                 "ams.exe"
             ],
-            "hash": "d72230142695ea01dbb36c891ada971d6e61e2dc8bed9878fb07db8a4e1ac855"
+            "hash": "48e1c5d4b8f3f111efeff386d79b7d8c990ac5938d95879260fc379e6085fa94"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/Apple-Map-Server-CLI/releases/download/v0.0.12/ams-windows-arm64.tar.gz",
+            "url": "https://github.com/dl-alexandre/Apple-Map-Server-CLI/releases/download/v0.0.13/ams-windows-arm64.tar.gz",
             "bin": [
                 "ams.exe"
             ],
-            "hash": "91d1c7bebbaaaff1b6eb774d819a115ff726327416be6ba086fbc650f15bf885"
+            "hash": "5ffc9c8bf88c521d371f46bd772f1013f9b6aa8a5e54cd538fc14eba19900b08"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Apple-Map-Server-CLI",
