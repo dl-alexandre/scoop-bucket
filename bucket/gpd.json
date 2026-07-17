@@ -1,19 +1,19 @@
 {
-    "version": "0.6.4",
+    "version": "0.6.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dl-alexandre/Google-Play-Developer-CLI/releases/download/v0.6.4/gpd-windows-amd64.zip",
+            "url": "https://github.com/dl-alexandre/Google-Play-Developer-CLI/releases/download/v0.6.5/gpd_0.6.5_windows_x86_64.zip",
             "bin": [
                 "gpd.exe"
             ],
-            "hash": "fd2cba86322159e188bd625d74ecfaf7e0b6aaae695bb66164b5cee10f374d22"
+            "hash": "63ab35e44c3c5f69789fa2f0203c183b6308d6655e8ec3b4cf7e6f3fc23dd7c5"
         },
         "arm64": {
-            "url": "https://github.com/dl-alexandre/Google-Play-Developer-CLI/releases/download/v0.6.4/gpd-windows-arm64.zip",
+            "url": "https://github.com/dl-alexandre/Google-Play-Developer-CLI/releases/download/v0.6.5/gpd_0.6.5_windows_arm64.zip",
             "bin": [
                 "gpd.exe"
             ],
-            "hash": "99290676b4ce4ae41a81b97e950326532e1ad8cbe4fadba8abb995b3a580477f"
+            "hash": "d81d44fd83b4bc3134547c920e91a60c0aa13cbc8fd4c04f4d2336fef6884cba"
         }
     },
     "homepage": "https://github.com/dl-alexandre/Google-Play-Developer-CLI",
